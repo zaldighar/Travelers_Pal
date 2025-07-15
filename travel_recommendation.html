@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Traveler's Pal</title>+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="navbar-container">
+            <a href="travel_recommendation.html" class="logo"><img src="./assets/airplane.png" alt="airplane.png"
+                    width="50" height="50" />
+                <h3>Traveler's Pal</h3>
+            </a>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="travel_recommendation.html">Home</a></li>
+                    <li><a href="about_us.html">About Us</a></li>
+                    <li><a href="contact_us.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="search-container">
+                <input id="search-input" type="text" placeholder="Search for destinations..." />
+                <button id="search-button" type="submit">Search</button>
+                <button id="reset-button">Reset</button>
+            </div>
+        </div>
+        <div class="content">
+            <div class="hero">
+                <h1>Welcome to Traveler's Pal</h1>
+                <p>Your one-stop solution for travel recommendations. this is a good place to start your next adventure!
+                    If you
+                    see any destinations you like, just <a href="./contact_us.html">contact us</a> for more information.
+                </p>
+            </div>
+            <div class="search-results">
+                <h1 class="search-results-title">Search Results</h1>
+                <div id="results"></div>
+            </div>
+        </div>
+        <footer>
+            <p>&copy; 2025 Traveler's Pal. All rights reserved.</p>
+        </footer>
+        <script src="./travel_recommendation.js"></script>
+    </div>
+</body>
+
+</html>

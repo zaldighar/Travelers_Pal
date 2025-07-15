@@ -1,0 +1,167 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  max-width: 90%;
+  min-width: 600px;
+  /* display: flex; */
+  margin: auto;
+  background-image: url("./assets/city.jpg");
+}
+.main-container {
+  min-height: 100vh;
+}
+
+.navbar-container {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  margin-right: 10px;
+}
+.navbar-container h3 {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-container input {
+  padding: 5px;
+  margin-right: 5px;
+
+  border: 1px solid #ccc;
+  border-radius: 50px;
+}
+
+.search-container button {
+  padding: 5px 10px;
+  background-color: #3a12ee;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 0 2px;
+}
+
+.hero {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.content {
+  padding: 20px;
+  display: flex;
+}
+.content label {
+  font-weight: bold;
+  display: block;
+}
+.hero {
+  margin: 10px 0;
+  width: 40%;
+}
+.contact-form {
+  width: 60%;
+  margin-left: 40px;
+  color: #3a12ee;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.team {
+  margin-top: 20px;
+  padding: 20px;
+  margin-left: 40px;
+  text-align: center;
+  font-size: 1.5em;
+  color: #3a12ee;
+}
+.team ul {
+  list-style: none;
+  padding: 0;
+}
+.search-results-title {
+  color: #3a12ee;
+  font-size: 2em;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+#results {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  color: #3a12ee;
+}
+
+.search-results {
+  margin: 20px;
+  padding: 20px;
+  width: 60%;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.result-item {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background-color: bisque;
+}
+
+.result-image {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
